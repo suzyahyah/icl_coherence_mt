@@ -1,0 +1,13 @@
+faiss==1.7.1
+langdetect==1.0.9
+langid==1.1.6
+numpy==1.21.6
+omegaconf==2.1.1
+pandas==1.0.1
+rank_bm25==0.2.2
+sacrebleu==2.1.0
+sentence_transformers==2.2.2
+torch==1.12.1
+torch==1.13.1
+tqdm==4.62.3
+transformers==4.30.2
