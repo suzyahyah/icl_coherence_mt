@@ -1,0 +1,10 @@
+sample_prompts:
+  do_submodopt: true
+  filter_length: false
+  name: no_lengthfilter-bm25-submodopt_doc_level_nob
+  nprompts: 5
+  onthefly: false
+  per_p_budget: -1
+  sample_on_new: true
+  sampling_method: bm25_doc_level
+  shuffle_mode: None

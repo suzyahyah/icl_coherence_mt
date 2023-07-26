@@ -1,0 +1,9 @@
+sample_prompts:
+  do_submodopt: true
+  filter_length: false
+  name: no_lengthfilter-bm25-submodopt
+  nprompts: 5
+  per_p_budget: 20
+  sample_on_new: true
+  sampling_method: bm25
+  shuffle_mode: None

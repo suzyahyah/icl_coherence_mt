@@ -1,0 +1,7 @@
+sample_prompts:
+  filter_length: false
+  name: no_lengthfilter-shuffle_doclevel
+  nprompts: 5
+  sample_on_new: true
+  sampling_method: doc_level
+  shuffle_mode: order

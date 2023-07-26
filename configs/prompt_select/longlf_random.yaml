@@ -1,0 +1,7 @@
+sample_prompts:
+  filter_length: long
+  name: long_lengthfilter-random
+  nprompts: 5
+  sample_on_new: false
+  sampling_method: random
+  shuffle_mode: None

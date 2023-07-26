@@ -1,0 +1,10 @@
+sample_prompts:
+  bankname: no_lengthfilter-random
+  filter_length: false
+  name: no_lengthfilter-doc_level_gen
+  nprompts: 5
+  sample_on_new: true
+  sampling_method: doc_level
+  shuffle_mode: None
+  test_use_gold: false
+  train_use_gold: true

@@ -1,0 +1,8 @@
+sample_prompts:
+  filter_length: false
+  name: no_lengthfilter-static_doc_level
+  nprompts: 5
+  onthefly: true
+  sample_on_new: false
+  sampling_method: static_doc_level
+  shuffle_mode: None

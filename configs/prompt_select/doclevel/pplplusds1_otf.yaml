@@ -1,0 +1,10 @@
+sample_prompts:
+  filter_length: false
+  name: no_lengthfilter-pplplusds1_doc_level_otf
+  nprompts: 5
+  onthefly: true
+  sample_on_new: true
+  sampling_method: ppl_doc_level
+  shuffle_mode: None
+  test_use_gold: true
+  train_use_gold: true

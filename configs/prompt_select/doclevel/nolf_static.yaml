@@ -1,0 +1,7 @@
+sample_prompts:
+  filter_length: false
+  name: no_lengthfilter-static_doc_level
+  nprompts: 5
+  sample_on_new: true
+  sampling_method: static_doc_level
+  shuffle_mode: None

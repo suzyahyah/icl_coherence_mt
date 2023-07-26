@@ -1,0 +1,10 @@
+sample_prompts:
+  do_submodopt: true
+  filter_length: false
+  name: no_lengthfilter-nn_doc_level
+  nprompts: 5
+  onthefly: false
+  per_p_budget: 20
+  sample_on_new: true
+  sampling_method: nn_doc_level
+  shuffle_mode: None

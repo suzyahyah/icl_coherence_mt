@@ -1,0 +1,10 @@
+sample_prompts:
+  filter_length: false
+  name: no_lengthfilter-doc_level
+  nprompts: 5
+  onthefly: true
+  sample_on_new: true
+  sampling_method: doc_level
+  shuffle_mode: None
+  test_use_gold: true
+  train_use_gold: true

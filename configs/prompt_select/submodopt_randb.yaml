@@ -1,0 +1,9 @@
+sample_prompts:
+  do_submodopt: true
+  filter_length: false
+  name: no_lengthfilter-submodopt_randb
+  nprompts: 5
+  per_p_budget: -2
+  sample_on_new: true
+  sampling_method: bm25
+  shuffle_mode: None

@@ -1,0 +1,30 @@
+HOME: /exp/ssia/projects/icl_coherence_mt
+
+# gen_fn and results_fn
+STANDARD_FP0: gen-{generator.name}{data.doclevel}/{data.trainset}-{data.testset}/{model.model_size}-nprompts{sample_prompts.nprompts}-seed{seed}.{data.direction}
+STANDARD_FP: format-{format.name}/{sample_prompts.name}/${STANDARD_FP0}
+
+gen_fn: ${HOME}/generated/${STANDARD_FP}.csv.hyp
+res_fn: ${HOME}/results/${STANDARD_FP}.json
+
+gen_fn_for_prompt: generated/format-{format.name}/{sample_prompts.bankname}/${STANDARD_FP0}.csv.hyp
+
+# ANALYSIS 
+word_analysis: ${HOME}/analysis/word_overlap/${STANDARD_FP}.csv 
+nn_sim_analysis: ${HOME}/analysis/nn_sim/${STANDARD_FP}.txt
+ppl_test_analysis: ${HOME}/analysis/ppl_source/${STANDARD_FP}.npy
+ppl_input_analysis: ${HOME}/analysis/ppl_input/${STANDARD_FP}.npy
+attn_analysis: ${HOME}/analysis/attns/${STANDARD_FP}.pickle
+logits_analysis: ${HOME}/analysis/logits/${STANDARD_FP}.csv
+attn_analysis_ne: ${HOME}/analysis/attns/${STANDARD_FP}.norm_ent.pickle
+#attn_analysis: ${HOME}/analysis/attns/${STANDARD_FP}.npy
+#attnp_analysis: ${HOME}/analysis/attns/${STANDARD_FP}.prop.npy
+#attn_srctgt_analysis: ${HOME}/analysis/attns_srctgt/${STANDARD_FP}.npy
+#attn_srctgt2_analysis: ${HOME}/analysis/attns_srctgt_lastp/${STANDARD_FP}.npy
+
+
+# Saving test source target and used prompts
+test_source_fn: ${HOME}/data/{data.testset}/subset_test/{data.direction}.{data.source}.txt
+test_target_fn: ${HOME}/data/{data.testset}/subset_test/{data.direction}.{data.target}.txt
+test_parallel_fn: ${HOME}/data/{data.testset}/subset_test/{data.direction}.csv
+used_prompts_fn: assets/{data.trainset}/nprompts{sample_prompts.nprompts}_seed{seed}.{data.direction}.txt
